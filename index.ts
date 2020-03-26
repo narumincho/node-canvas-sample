@@ -1,9 +1,9 @@
 import * as canvas from "canvas";
 import * as fileSystem from "fs";
 
-const width = 64;
-const height = 64;
-const text = "D";
+const width = 1024;
+const height = 633;
+const text = "骨A";
 
 const sampleCanvas = canvas.createCanvas(width, height);
 const context = sampleCanvas.getContext("2d");
@@ -13,7 +13,7 @@ context.fillStyle = "#000000";
 context.fillRect(0, 0, width, height);
 
 context.fillStyle = "#ffffff";
-context.font = "48px serif";
+context.font = "48px 'Noto Sans'";
 const textMetrics = context.measureText(text);
 
 const textHeight =
