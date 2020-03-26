@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const canvas = require("canvas");
 const fileSystem = require("fs");
-const width = 1600;
-const height = 900;
-const text = "sample text それな 骨";
-const sampleCanvas = canvas.createCanvas(1600, 900);
+const width = 64;
+const height = 64;
+const text = "D";
+const sampleCanvas = canvas.createCanvas(width, height);
 const context = sampleCanvas.getContext("2d");
 context.fillStyle = "#000000";
 context.fillRect(0, 0, width, height);
